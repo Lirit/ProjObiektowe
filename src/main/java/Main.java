@@ -123,7 +123,7 @@ public class Main {
         try{
         stmt = c.createStatement();
         String sql = "DELETE FROM Registration " +
-                "WHERE id = 101";
+                "WHERE id = "+id;
         stmt.executeUpdate(sql);
         }
         catch(Exception e){
