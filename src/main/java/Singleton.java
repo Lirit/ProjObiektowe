@@ -37,6 +37,13 @@ public class Singleton {
 
     public static void main(String[] args){
         Singleton s;
+        Adapt a = new Adapt();
+        MainMysql mm = new MainMysql();
+        a.connectAdapt(mm);
+
+        Main m = new Main();
+        a.connectAdapt(m);
+
         s = getInstance();
         s.connect();
         s.getAll();

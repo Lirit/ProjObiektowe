@@ -1,132 +1,196 @@
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class Main {
+public class Main implements MainInterface{
 
     Connection c = null;
     Statement stmt = null;
-
+    static final String MSG = "Exception occurred: ";
     public void connect(){
         try{
             Class.forName("org.sqlite.JDBC");
             c = DriverManager.getConnection("jdbc:sqlite://localhost/Baza_1","root","root");
             c.close();
         }catch(Exception e){
-            e.printStackTrace();
+            Logger logger = Logger.getAnonymousLogger();
+
+            logger.log(Level.INFO,MSG, e);
         }
         finally{
             try{
                 if(stmt!=null)
                     stmt.close();
             }catch(SQLException se2){
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, se2);
             }
             try{
                 if(c!=null){
                     c.close();
                 }
             }catch(SQLException se){
-                se.printStackTrace();
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, se);
             }
         }
     }
 
-    public void getAll() {
+
+
+    public List<Person> getAll() {
+        List<Person> resultList = new ArrayList<Person>();
+        ResultSet rs = null;
         try{
         stmt = c.createStatement();
         String sql;
         sql = "SELECT * FROM People";
-        ResultSet rs = stmt.executeQuery(sql);
+        rs = stmt.executeQuery(sql);
                 while(rs.next()){
+                    Person tempP = new Person();
+
                     //Retrieve by column name
                     int id  = rs.getInt("id");
                     String name  = rs.getString("name");
                     String surname = rs.getString("surname");
 
-                    //Display values
-                    System.out.print("ID: " + id);
-                    System.out.print(", Name: " + name);
-                    System.out.print(", Surname: " + surname);
+                    tempP.setId(id);
+                    tempP.setName(name);
+                    tempP.setSurname(surname);
+                    resultList.add(tempP);
                 }
-        rs.close();
-        stmt.close();}
-        catch(Exception e){}
-        finally{try {
+        }
+        catch(Exception e){
+            Logger logger = Logger.getAnonymousLogger();
+            logger.log(Level.INFO,MSG, e);
+        }
+        finally{
+            try{
+                if(rs != null){
+            rs.close();
+                }
+            }
+            catch(SQLException ex){
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, ex);
+            }
+            try {
                 if (stmt != null)
                     stmt.close();
             }catch (Exception ex){
-
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, ex);
             }
             }
+            return resultList;
     }
-    void getOne(int id){
+
+
+    Person getOne(int id){
+        Person resultPerson = new Person();
+        ResultSet rs = null;
+        PreparedStatement prp = null;
     try{
         stmt = c.createStatement();
         String sql;
-        sql = "SELECT * FROM People WHERE 'id'="+id;
-        ResultSet rs = stmt.executeQuery(sql);
-        while(rs.next()){
+        sql = "SELECT * FROM People WHERE id=?";
+        prp = c.prepareStatement(sql);
+        prp.setInt(1,id);
+        rs = prp.executeQuery();
+        while(rs.next()) {
             //Retrieve by column name
-            int id_1  = rs.getInt("id");
-            String name  = rs.getString("name");
+            int idNum = rs.getInt("id");
+            String name = rs.getString("name");
             String surname = rs.getString("surname");
 
             //Display values
-            System.out.print("ID: " + id_1);
-            System.out.print(", Name: " + name);
-            System.out.print(", Surname: " + surname);
+            resultPerson.setId(idNum);
+            resultPerson.setName(name);
+            resultPerson.setSurname(surname);
         }
-        rs.close();
-        stmt.close();}
-        catch(Exception e){}
-        finally{try {
+        }
+        catch(Exception e){
+            Logger logger = Logger.getAnonymousLogger();
+            logger.log(Level.INFO,MSG, e);
+        }
+        finally{
+            try{
+                if(prp != null){
+                prp.close();}
+            if(rs != null){
+                rs.close();
+            }}
+            catch(Exception exc){
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, exc);
+            }
+            try {
         if (stmt != null)
-            stmt.close();
+        {stmt.close();}
+
     }catch (Exception ex){
-
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, ex);
     }
-    }}
+    }
+    return resultPerson;
+    }
 
 
-    void insert(int id, String name,String surname){
+    void insert(int id, String name,String surname) {
         ResultSet rs = null;
-        try{
+        PreparedStatement prp = null;
+        if((name != null) && (surname != null)){
+        try {
             stmt = c.createStatement();
             String sql;
-            sql = "INSERT INTO People VALUES ("+id+","+name+","+surname+")";
-            rs = stmt.executeQuery(sql);
-            System.out.println("Inserted into database.");
+            sql = "INSERT INTO People VALUES (?,?,?)";
+            prp = c.prepareStatement(sql);
+            prp.setInt(1,id);
+            prp.setString(2,name);
+            prp.setString(3,surname);
+            rs = prp.executeQuery();
             rs.close();
-            stmt.close();
-            c.close();
-        }
-    catch(Exception e){}
-    finally{
-        try {
-        if (stmt != null){
-            stmt.close();
-        }
-    }catch (Exception ex){}
+        } catch (Exception e) {
+            Logger logger = Logger.getAnonymousLogger();
+            logger.log(Level.INFO,MSG, e);
+        } finally {
             try {
-                if (rs != null){
+                if(prp != null){
+                    prp.close();
+                }
+                if (stmt != null) {
+                    stmt.close();
+                }
+            } catch (Exception ex) {
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, ex);
+            }
+            try {
+                if (rs != null) {
                     rs.close();
                 }
-            }catch (Exception ex){}
-    }
+            } catch (Exception ex) {
 
+                Logger logger = Logger.getAnonymousLogger();
+                logger.log(Level.INFO,MSG, ex);
+            }
+        }
+    }
     }
 
     void delete(int id){
         try{
         stmt = c.createStatement();
         String sql = "DELETE FROM Registration " +
-                "WHERE id = 101";
+                "WHERE id = "+id;
         stmt.executeUpdate(sql);
         }
         catch(Exception e){
+            Logger logger = Logger.getAnonymousLogger();
+            logger.log(Level.INFO,MSG, e);
         }
 
     }
@@ -136,8 +200,10 @@ public class Main {
             String sql = "UPDATE Registration " +
                "SET name ="+name+",surname="+surname+" WHERE id="+id;
        stmt.executeUpdate(sql);
-}catch (Exception e){
-
-}
+        }
+        catch (Exception e){
+           Logger logger = Logger.getAnonymousLogger();
+           logger.log(Level.INFO,MSG, e);
+        }
     }
 }
