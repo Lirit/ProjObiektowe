@@ -1,4 +1,0 @@
-interface MainInterface {
-
-    void connect();
-}

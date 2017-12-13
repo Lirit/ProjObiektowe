@@ -1,6 +1,5 @@
-import jdk.nashorn.internal.ir.debug.JSONWriter;
+package Config;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -49,10 +48,10 @@ finally{
         //Object obj = parser.parse(configFile);
          JSONObject obj = (JSONObject) parser.parse(configFile);
 
-        url = (String)obj.get("url");
-        username = (String)obj.get("username");
-        password = (String)obj.get("password");
-        port = (Integer) obj.get("port");
+        this.url = (String)obj.get("url");
+        this.username = (String)obj.get("username");
+        this.password = (String)obj.get("password");
+        this.port = (Integer) obj.get("port");
 
         System.out.println(url);
         System.out.println(username);
@@ -66,9 +65,9 @@ finally{
             configFile.close();
         }
     }
-    public static void main(String[] args) throws IOException{
+    /*public static void main(String[] args) throws IOException{
         DBConfig dbc = new DBConfig();
         dbc.writeconfig();
         dbc.readConfig();
-    }
+    }*/
 }

@@ -1,3 +1,8 @@
+package main;
+
+import Adapter.Adapt;
+import Adapter.AdapterDB;
+
 public class Singleton {
     Main m = null;
     private static Singleton instance = null;
@@ -37,12 +42,13 @@ public class Singleton {
 
     public static void main(String[] args){
         Singleton s;
-        Adapt a = new Adapt();
+        AdapterDB a = new AdapterDB("mysql");
         MainMysql mm = new MainMysql();
-        a.connectAdapt(mm);
+        a.connect();
 
+        a = new AdapterDB("sqlite");
         Main m = new Main();
-        a.connectAdapt(m);
+        a.connect();
 
         s = getInstance();
         s.connect();

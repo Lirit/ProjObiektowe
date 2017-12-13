@@ -6,7 +6,7 @@
         <!-- Persistence provider -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Entity classes -->
-        <class>Person</class>
+        <class>main.Person</class>
         <properties>
             <!-- The JDBC driver of your database -->
             <property name="javax.persistence.jdbc.driver" value="com.sqlite.jdbc.Driver" />
