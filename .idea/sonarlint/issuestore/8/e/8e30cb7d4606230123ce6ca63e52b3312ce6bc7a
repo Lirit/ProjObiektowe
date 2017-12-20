@@ -1,0 +1,12 @@
+
+1squid:S1220""Move this file to a named package.
+Ÿ%squid:RedundantThrowsDeclarationCheck"kRemove the declaration of thrown exception 'org.hibernate.HibernateException' which is a runtime exception.(ä²›øÿÿÿÿ
+Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(¿ËÛ›ûÿÿÿÿ
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÚÈÀÅ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(àªÅö
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.( ´ù˜
+?squid:S1181"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ

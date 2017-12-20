@@ -1,0 +1,3 @@
+DELETE,/delete
+PUT,/put
+POST,/post

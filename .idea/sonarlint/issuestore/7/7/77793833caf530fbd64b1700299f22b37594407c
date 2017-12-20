@@ -1,0 +1,23 @@
+
+Asquid:S1166"%Either log or rethrow this exception.(‚Üò8âû›Ä€,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±”Ä€,
+Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8—ëªÄ€,
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(»‚òâ8ãÅ€,
+nsquid:S00116"QRename this field "CONFIG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÆ¦•8ÇÍçÄ€,
+<squid:S2068" Remove this hard-coded password.(ììšú8æà†Ä€,
+Fsquid:S1166"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8±”Ä€,
+Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8—ëªÄ€,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(À“Ÿ¨8ıˆàÄ€,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(àö¨è8ô‚“è„,
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ŞÆ­Ûşÿÿÿÿ8éş‡Å€,
+=squid:S1170"!Make this final field static too.(ØÆ¦•8ÇÍçÄ€,
+Fsquid:S00108")Either remove or fill this block of code.(‚Üò8âû›Ä€,
+fsquid:S2259"ENullPointerException might be thrown as 'configFile' is nullable here(¦àíëüÿÿÿÿ8ÃÅ•Ä€,
+fsquid:S2259"ENullPointerException might be thrown as 'configFile' is nullable here(¦àíëüÿÿÿÿ8»ş®Ä€,
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(­ ‘ˆüÿÿÿÿ8´ó‹Å€,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ù¥¥¾8Ë™œè„,
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Éáğè8•üŒÅ€,

@@ -1,0 +1,6 @@
+
+Gsquid:S1481"&Remove this unused "m" local variable.(ëÊ¢Üûÿÿÿÿ8¸¿»é„,
+Hsquid:S1481"'Remove this unused "mm" local variable.(Óž‰ìüÿÿÿÿ8÷ç¹é„,
+Wsquid:S1854"6Remove this useless assignment to local variable "mm".(Óž‰ìüÿÿÿÿ8÷ç¹é„,
+Vsquid:S1854"5Remove this useless assignment to local variable "m".(ëÊ¢Üûÿÿÿÿ8¸¿»é„,
+Rsquid:UselessImportCheck"*Remove this unused import 'Adapter.Adapt'.(´â’W8ôáºé„,

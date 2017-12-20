@@ -7,28 +7,27 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class HTMLConfig {
-String file;
 
-    public String readConfig(String naem) throws IOException {
+
+    public String readConfig(String naem, String parameter) throws IOException {
+        String param= "";
         JSONParser parser = new JSONParser();
         FileReader configFile = null;
-
         try{
             configFile = new FileReader(naem);
-            //Object obj = parser.parse(configFile);
-            JSONObject obj = (JSONObject) parser.parse(configFile);
+            Object obj = parser.parse(configFile);
+            JSONObject jsonobj = (JSONObject) obj;
 
-            file = (String)obj.get("fileName");
+            param = (String)jsonobj.get(parameter);
 
-            System.out.println(file);
         }
         catch(Exception e){
-
+e.printStackTrace();
         }
         finally{
-            configFile.close();
+            //configFile.close();
         }
 
-        return file;
+        return param;
     }
 }
