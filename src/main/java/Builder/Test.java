@@ -1,6 +1,7 @@
 package Builder;
 
 public class Test {
+
 public HTMLTemplate getTemp(){
     return new HTMLBuilder("data.json")
             .setFileName()

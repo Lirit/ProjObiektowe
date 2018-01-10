@@ -9,13 +9,23 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainHandler implements HttpHandler {
+    HttpHandler successor;
+    static String lastResponse = "No responses yet.";
+    public void setSuccessor(HttpHandler successor){
+        this.successor = successor;
+    }
 
     public void handle(HttpExchange t) throws IOException {
-        String response = "Sample";
-        t.sendResponseHeaders(200, response.length());
-        OutputStream os = t.getResponseBody();
-        os.write(response.getBytes());
-        os.close();
+        String req = t.getRequestMethod();
+        if(req.equals("GET")){
+            System.out.println("MainHandler handling request: "+req);
+            String response = lastResponse;
+            writeResponse(t,response);
+        }
+        else{
+            System.out.println("MainHandler can't handle this request: "+req);
+            successor.handle(t);
+        }
     }
 
     public static void writeResponse(HttpExchange httpExchange, String response) throws IOException {
@@ -25,17 +35,6 @@ public class MainHandler implements HttpHandler {
         os.close();
     }
 
-    public static Map<String, String> queryToMap(String query){
-        Map<String, String> result = new HashMap<String, String>();
-        for (String param : query.split("&")) {
-            String pair[] = param.split("=");
-            if (pair.length>1) {
-                result.put(pair[0], pair[1]);
-            }else{
-                result.put(pair[0], "");
-            }
-        }
-        return result;
-    }
+
 
 }

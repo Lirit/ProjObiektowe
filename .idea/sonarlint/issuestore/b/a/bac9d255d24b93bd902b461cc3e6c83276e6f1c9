@@ -1,0 +1,5 @@
+
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸«ÆB8 ™‹‡,
+Ssquid:S1854"8Remove this useless assignment to local variable "html".(ÇÁÇp8 ™‹‡,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Ä€²ÿÿÿÿÿ
+Dsquid:S1481")Remove this unused "html" local variable.(ÇÁÇp8 ™‹‡,

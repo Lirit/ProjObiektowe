@@ -14,7 +14,7 @@ public class HTMLTemplate {
         this.title = builder.title;
     }
 
-    String returnHTML(){
+    public String returnHTML(){
 
         StringBuilder tempHTML = new StringBuilder();
         tempHTML.append("<html>");

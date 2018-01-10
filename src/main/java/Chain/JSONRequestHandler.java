@@ -13,33 +13,53 @@ import java.util.Map;
 
 public class JSONRequestHandler implements HttpHandler {
 
-    //PUT, DELETE oraz POST
+    HttpHandler successor;
 
-public void handle(HttpExchange t) throws IOException {
+    public void setSuccessor(HttpHandler successor){
+        this.successor = successor;
+    }
+
+    public Map<String, String> queryToMap(String query){
+        Map<String, String> result = new HashMap<String, String>();
+        for (String param : query.split("&")) {
+            String pair[] = param.split("=");
+            if (pair.length>1) {
+                result.put(pair[0], pair[1]);
+            }else{
+                result.put(pair[0], "");
+            }
+        }
+        return result;
+    }
+
+    public void handle(HttpExchange t) throws IOException {
     String req = t.getRequestMethod();
-    System.out.println(req);
     if(req.equals("PUT")){
-        StringBuilder response = new StringBuilder();
-        Map <String,String>parms = MainHandler.queryToMap(t.getRequestURI().getQuery());
-        response.append("<html><body>");
-        response.append("hello : " + parms.get("hello") + "<br/>");
-        response.append("foo : " + parms.get("foo") + "<br/>");
-        response.append("</body></html>");
-        MainHandler.writeResponse(t, response.toString());
+        System.out.println("JSONRequestHandler handling request: "+req);
+        String response = "PUT";
+        MainHandler.lastResponse = response;
+        MainHandler.writeResponse(t, response);
     }
     else if(req.equals("POST")){
+        System.out.println("JSONRequestHandler handling request: "+req);
         String response = "POST";
+        MainHandler.lastResponse = response;
         MainHandler.writeResponse(t, response.toString());
+
     }
     else if(req.equals("DELETE")){
+        System.out.println("JSONRequestHandler handling request: "+req);
         String response = "DELETE";
+        MainHandler.lastResponse = response;
         MainHandler.writeResponse(t, response.toString());
     }
     else{
-        ErrorHandler e = new ErrorHandler();
-        e.handle(t);
+        System.out.println("JSONRequestHandler can't handle this request: "+req);
+        successor.handle(t);
     }
 
 }
+
+
 
 }

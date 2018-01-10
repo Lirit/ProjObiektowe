@@ -35,3 +35,19 @@ T
 $src/main/java/Adapter/AdapterDB.java,c/d/cdea9d764030c1c96d2e07bbe590033a0b5cd91c
 U
 %src/main/java/main/MainInterface.java,c/d/cd788ae2ca1d47fc3fdd0b40aaecc2ba5816fcf3
+L
+src/main/java/Chain/Data.csv,6/1/616d16f83824b51e6e95414c09936247ba99126c
+P
+ src/main/java/Chain/Routing.java,8/5/85fa5fc6385f362ab6a5524538a76d6442e46aff
+U
+%src/main/java/Chain/ErrorHandler.java,0/1/01daf6bc2111b40491d1b4572a2c3b50ab364559
+[
++src/main/java/Chain/JSONRequestHandler.java,6/f/6f5eeeac0bcd0792188dbd52821470c29aa1febf
+T
+$src/main/java/Chain/MainHandler.java,e/7/e7dbf1450840aa04f55a1207331922f375d79280
+@
+target/data.json,9/1/919fa9a3f061d7c733816ea292cd72ef628b0a8f
+9
+	data.json,7/4/742e03b5d9ae5b166ca116078a7bf85c41940472
+O
+src/main/java/Builder/Test.java,b/a/bac9d255d24b93bd902b461cc3e6c83276e6f1c9
