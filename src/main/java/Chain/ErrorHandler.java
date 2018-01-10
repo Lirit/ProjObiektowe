@@ -25,7 +25,8 @@ public class ErrorHandler implements HttpHandler {
             Builder.Test tst = new Test();
             String html = tst.getTemp().returnHTML();
         String response =  html;
-        t.sendResponseHeaders(200, response.length());
+
+        t.sendResponseHeaders(404, response.length());
         MainHandler.lastResponse = response;
         OutputStream os = t.getResponseBody();
         os.write(response.getBytes());

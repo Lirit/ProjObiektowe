@@ -1,13 +1,13 @@
 
 Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ÖÐ¢‰‡,
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(Í½Ú¨8ÞÐœ‰‡,
-Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ÞÐœ‰‡,
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Ä€²ÿÿÿÿÿ
-—squid:S1192"{Define a constant instead of duplicating this literal "There was a problem with accessing the configuration file." 3 times.(Í½Ú¨8ŽúŸ‰‡,
 V
 squid:S106";Replace this usage of System.out or System.err by a logger.(Í½Ú¨8ÖÐ¢‰‡,
 V
 squid:S106";Replace this usage of System.out or System.err by a logger.(Í½Ú¨8ŽúŸ‰‡,
-Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ŽúŸ‰‡,
+Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ÞÐœ‰‡,
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8÷ÈÝ‰‡,
+—squid:S1192"{Define a constant instead of duplicating this literal "There was a problem with accessing the configuration file." 3 times.(Í½Ú¨8ŽúŸ‰‡,
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Í½Ú¨8ÞÐœ‰‡,
+Fsquid:S1166"%Either log or rethrow this exception.(ñ“Š±üÿÿÿÿ8ŽúŸ‰‡,

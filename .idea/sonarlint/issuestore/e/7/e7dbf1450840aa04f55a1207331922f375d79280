@@ -1,5 +1,12 @@
 
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(Ãœ²«8È¹±„‡,
-Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8Ã°ñ†‡,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(üÕÙä8€ã‡ƒ‡,
+Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(üÕÙä8½´™ê,
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(¥´ðã8¤Ü‹ë,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8½´™ê,
+Xsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8½´™ê,
+\squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8½´™ê,
+Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(Ãœ²«8½´™ê,
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(·¬Öþ8¾±Žë,
+jsquid:S1132"IMove the "GET" string literal on the left side of this string comparison.(ô­µðûÿÿÿÿ8½´™ê,
+[squid:S1161":Add the "@Override" annotation above this method signature(ñ´«Žýÿÿÿÿ8½´™ê,

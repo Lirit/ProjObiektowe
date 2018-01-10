@@ -1,5 +1,6 @@
 package Chain;
 
+import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import main.Main;
@@ -14,7 +15,7 @@ import java.util.Map;
 public class JSONRequestHandler implements HttpHandler {
 
     HttpHandler successor;
-
+    final String response = "['testing json']";
     public void setSuccessor(HttpHandler successor){
         this.successor = successor;
     }
@@ -36,22 +37,25 @@ public class JSONRequestHandler implements HttpHandler {
     String req = t.getRequestMethod();
     if(req.equals("PUT")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        String response = "PUT";
+        Headers h = t.getResponseHeaders();
+        h.add("Content-Type", "text/json");
         MainHandler.lastResponse = response;
         MainHandler.writeResponse(t, response);
     }
     else if(req.equals("POST")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        String response = "POST";
+        Headers h = t.getResponseHeaders();
+        h.add("Content-Type", "text/json");
         MainHandler.lastResponse = response;
-        MainHandler.writeResponse(t, response.toString());
+        MainHandler.writeResponse(t, response);
 
     }
     else if(req.equals("DELETE")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        String response = "DELETE";
+        Headers h = t.getResponseHeaders();
+        h.add("Content-Type", "text/json");
         MainHandler.lastResponse = response;
-        MainHandler.writeResponse(t, response.toString());
+        MainHandler.writeResponse(t, response);
     }
     else{
         System.out.println("JSONRequestHandler can't handle this request: "+req);

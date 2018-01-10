@@ -1,6 +1,6 @@
 
 Fsquid:S1166"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8ÌÛıä„,
 9squid:S2095"Close this "FileWriter".(…¿Å“şÿÿÿÿ8àóúä„,
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Ä€²ÿÿÿÿÿ
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(üö˜åûÿÿÿÿ8’˜şä„,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Ä€²ÿÿÿÿÿ
