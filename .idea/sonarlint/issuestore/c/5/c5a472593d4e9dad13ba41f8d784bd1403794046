@@ -1,0 +1,17 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤®Ÿ«‘,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤®Ÿ«‘,
+Fsquid:S00108")Either remove or fill this block of code.(í¶ƒ8¤®Ÿ«‘,
+Dsquid:S1148"#Use a logger to log this exception.(­İßÂûÿÿÿÿ8…ù’«‘,
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ8¤®Ÿ«‘,
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ8¤®Ÿ«‘,
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ç®±ùÿÿÿÿ8¤®Ÿ«‘,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…ù’«‘,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…ó‰üÿÿÿÿ
+psquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ8¤®Ÿ«‘,
+Esquid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡8¤®Ÿ«‘,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò‰¼Æ8¤®Ÿ«‘,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤®Ÿ«‘,
+Esquid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡8¤®Ÿ«‘,
+?squid:S1148"#Use a logger to log this exception.(û£Ü¤8¤®Ÿ«‘,
+csquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş8¤®Ÿ«‘,

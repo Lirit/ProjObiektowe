@@ -1,5 +1,3 @@
 
 Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Δ±‡,
-Fsquid:S1166"%Either log or rethrow this exception.(ρ“±όÿÿÿÿ8Άκ­ζ„,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ϊ­―›8φίπ‰‡,
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Δ€²ÿÿÿÿÿ

@@ -1,15 +1,12 @@
 
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(…í°Ÿ8¼´™ê,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
-^squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¼´™ê,
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÉşĞ8¼´™ê,
-esquid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº08÷ˆÖê,
-_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8¼´™ê,
-`squid:UselessImportCheck"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­8½õ×ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(Ãœ²«8¼´™ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.( üà8¼´™ê,
-isquid:UselessImportCheck"@Remove this unused import 'com.sun.net.httpserver.HttpExchange'.(üÕÙä8¼´™ê,
-Wsquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8½õ×ê,
 csquid:UselessImportCheck"5Remove this unused import 'java.io.DataOutputStream'.(¸Îáíıÿÿÿÿ8½õ×ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(üÕÙä8¼´™ê,
+`squid:UselessImportCheck"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­8½õ×ê,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
+esquid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº08÷ˆÖê,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(…í°Ÿ8€Èç®‘,
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(üÕÙä8¼´™ê,
+Wsquid:UselessImportCheck")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8½õ×ê,
+^squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8€Èç®‘,
+_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8¼´™ê,
+isquid:UselessImportCheck"@Remove this unused import 'com.sun.net.httpserver.HttpExchange'.(üÕÙä8¼´™ê,

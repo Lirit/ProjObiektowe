@@ -27,12 +27,6 @@ Q
 !src/main/java/main/MainMysql.java,d/3/d32b90af0903943cf3ee9fc8226d3a87c7fa8052
 N
 src/main/java/main/Person.java,a/1/a1a3b3a381b96f645ca37b9c0ebb67b565e908e4
-P
- src/main/java/Adapter/Adapt.java,9/e/9ead1f39462d036d44ebcd31c68dee62c154d055
-Q
-!src/main/java/main/Singleton.java,6/a/6aa148467d1678c1f00193fb8c338219e8b18fae
-T
-$src/main/java/Adapter/AdapterDB.java,c/d/cdea9d764030c1c96d2e07bbe590033a0b5cd91c
 U
 %src/main/java/main/MainInterface.java,c/d/cd788ae2ca1d47fc3fdd0b40aaecc2ba5816fcf3
 L
@@ -55,3 +49,23 @@ M
 src/main/java/Chain/data.json,b/3/b36a27c57ddc3e9398ee384e2a62174f7b54ee2c
 M
 src/main/java/Chain/Test.java,1/6/160dc005f388d1d1146be974a3ee30721ec7bc42
+[
++src/main/java/Strategy/StartegyDBmysql.java,6/a/6ae3e15a0196775664e4cf57a9f9af0cc4d22b43
+[
++src/main/java/Strategy/StrategyPostgre.java,c/5/c5a472593d4e9dad13ba41f8d784bd1403794046
+P
+ src/main/java/Strategy/Test.java,3/1/317b749a8250c9b4eff026d2d0bf646ee8359901
+U
+%src/main/java/Strategy/Singleton.java,7/b/7b14ba3ec963d8ea87c216d534a75ea6c4d0c10e
+9
+	main.json,e/c/ec3b261f55da66e826a446880921e68a68f14d2e
+X
+(src/main/java/Builder/HTMLConfigure.java,0/5/050dd2bf8613a15bc1c40d2c2c69928244589b46
+C
+special_config.json,b/e/be5ced3bf2f0b80b4915e830cfcb56d81dbcc1f1
+S
+#src/main/java/Decorator/Editor.java,4/b/4b398a3a655721b7c5a3d0353308458b5ea337e3
+Y
+)src/main/java/Decorator/EditTemplate.java,0/5/0520db9cb93759d5dca35092959c16f6b2b5009e
+]
+-src/main/java/Strategy/StrategyDBHandler.java,8/5/8521981e9e43f25701be59bc3cac3480117fbb4a

@@ -1,9 +1,13 @@
 package Chain;
 
+import Strategy.Singleton;
+import Strategy.StrategyDBHandler;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import main.Main;
+import main.Person;
+import org.json.simple.JSONArray;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +19,7 @@ import java.util.Map;
 public class JSONRequestHandler implements HttpHandler {
 
     HttpHandler successor;
-    final String response = "['testing json']";
+    String response = "['testing json']";
     public void setSuccessor(HttpHandler successor){
         this.successor = successor;
     }
@@ -37,25 +41,45 @@ public class JSONRequestHandler implements HttpHandler {
     String req = t.getRequestMethod();
     if(req.equals("PUT")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        Headers h = t.getResponseHeaders();
-        h.add("Content-Type", "text/json");
-        MainHandler.lastResponse = response;
-        MainHandler.writeResponse(t, response);
+        Singleton s = Singleton.getInstance("sqlite");
+        String request = t.getRequestURI().getQuery();
+        System.out.println(request);
+        Map<String, String> tmp = queryToMap(request);
+        StrategyDBHandler str = s.database;
+        Person p = new Person();
+        p.setId(3);
+        p.setName("Bartłomiej");
+        p.setSurname("Zieliński");
+        p.setMail("barze@example.com");
+        p.setTelephone(222333444);
+        str.add(p);
+        Map<Integer, Person> mp = str.getAll();
+        JSONArray a = str.toJson(mp);
+        System.out.println(a.toString());
+        response = a.toString();
+        MainHandler.writeResponse(t, response,"json");
     }
     else if(req.equals("POST")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        Headers h = t.getResponseHeaders();
-        h.add("Content-Type", "text/json");
-        MainHandler.lastResponse = response;
-        MainHandler.writeResponse(t, response);
+        Singleton s = Singleton.getInstance("sqlite");
+        StrategyDBHandler str = s.database;
+        Map<Integer, Person> mp = str.getAll();
+        JSONArray a = str.toJson(mp);
+        System.out.println(a.toString());
+        response = a.toString();
+        MainHandler.writeResponse(t, response,"json");
 
     }
     else if(req.equals("DELETE")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        Headers h = t.getResponseHeaders();
-        h.add("Content-Type", "text/json");
-        MainHandler.lastResponse = response;
-        MainHandler.writeResponse(t, response);
+        Singleton s = Singleton.getInstance("sqlite");
+        StrategyDBHandler str = s.database;
+        str.remove(2);
+        Map<Integer, Person> mp = str.getAll();
+        JSONArray a = str.toJson(mp);
+        System.out.println(a.toString());
+        response = a.toString();
+        MainHandler.writeResponse(t, response,"json");
     }
     else{
         System.out.println("JSONRequestHandler can't handle this request: "+req);

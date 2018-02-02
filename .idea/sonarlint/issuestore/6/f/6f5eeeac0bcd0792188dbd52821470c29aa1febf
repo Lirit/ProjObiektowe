@@ -1,28 +1,30 @@
 
-U
-squid:S106";Replace this usage of System.out or System.err by a logger.(š†Û(8¼´™ê,
 squid:S1192"fDefine a constant instead of duplicating this literal "JSONRequestHandler handling request: " 3 times.(š†Û(8Âß“ë,
-gsquid:S1858"K"response" is already a string, there's no need to call "toString()" on it.(óÄ 8¼´™ê,
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ÿë®è8¯Ù»ë,
-gsquid:S1858"K"response" is already a string, there's no need to call "toString()" on it.(óÄ 8¼´™ê,
-_squid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8¼´™ê,
-[squid:S1161":Add the "@Override" annotation above this method signature(ñ´«ıÿÿÿÿ8¼´™ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(Ãœ²«8¼´™ê,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8¼´™ê,
-U
-squid:S106";Replace this usage of System.out or System.err by a logger.(š†Û(8¼´™ê,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ôÅ€«8¼´™ê,
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ÿë®è8•šÀë,
-U
-squid:S106";Replace this usage of System.out or System.err by a logger.(š†Û(8¼´™ê,
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ÿë®è8ë‚Áë,
-esquid:S1132"IMove the "PUT" string literal on the left side of this string comparison.(˜Úºœ8¼´™ê,
-\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
-Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8¼´™ê,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8Èé¶„,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶®éÓøÿÿÿÿ8Ğıê¦•,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8¶çÕ¤•,
+Xsquid:S1854"7Remove this useless assignment to local variable "tmp".(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
 _squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8Ñ©°ë,
-fsquid:S1132"JMove the "POST" string literal on the left side of this string comparison.(ÍØ«®8¼´™ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(üÕÙä8¼´™ê,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8¹Â×¤•,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
+\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8ş¨¤•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ôÅ€«8¼´™ê,
+Isquid:S1481"(Remove this unused "tmp" local variable.(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8¼´™ê,
+_squid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8¼´™ê,
+csquid:S1192"GDefine a constant instead of duplicating this literal "sqlite" 3 times.(Â“Ú¤8¹Â×¤•,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8¼´™ê,
+isquid:UselessImportCheck";Remove this unused import 'com.sun.net.httpserver.Headers'.(¬„úïùÿÿÿÿ8¹Â×¤•,
 Tsquid:UselessImportCheck"&Remove this unused import 'main.Main'.(®Œ²õüÿÿÿÿ8¼´™ê,
-hsquid:S1132"LMove the "DELETE" string literal on the left side of this string comparison.(µªìÑ8¼´™ê,

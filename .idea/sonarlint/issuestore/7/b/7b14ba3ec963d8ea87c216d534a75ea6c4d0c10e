@@ -1,0 +1,4 @@
+
+‡"squid:ClassVariableVisibilityCheck"TMake database a static final constant or non-public and provide accessors if needed.(üšİõ8Ó±¤•,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…ó‰üÿÿÿÿ8¾ Ú¥‘,
+Ysquid:UselessImportCheck"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8°²Ş¥‘,

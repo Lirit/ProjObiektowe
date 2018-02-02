@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class Test {
 public void sendOptions(){
-    String url = "http://localhost:9000/main";
+    String url = "http://localhost:9000/main?";
     try {
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -51,7 +51,7 @@ public void sendOptions(){
 }
 
 public void sendPost(){
-    String url = "http://localhost:9000/main";
+    String url = "http://localhost:9000/main?";
     try {
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -62,14 +62,12 @@ public void sendPost(){
         String urlParameters = "param1=12345";
         // Send post request
         String postJsonData = "{'id':5,'countryName':'USA','population':8000}";
-
         // Send post request
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(postJsonData);
         wr.flush();
         wr.close();
-
         int responseCode = con.getResponseCode();
         String reqType = con.getRequestMethod();
         System.out.println("Sending '"+reqType+"' request to URL : " + url);
@@ -95,6 +93,6 @@ public void sendPost(){
     public static void main(String[] args){
         Test t = new Test();
         t.sendOptions();
-        t.sendPost();
+       // t.sendPost();
     }
 }

@@ -10,27 +10,4 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="SbtLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/PROJEKT/Backend" value="1494866316000" />
-        <entry key="$USER_HOME$/Pobrane/Katalog bez nazwy" value="1491226113000" />
-        <entry key="$USER_HOME$/Pobrane/Projekt/scala-play-slick-example-master" value="1461047054000" />
-        <entry key="$USER_HOME$/Pobrane/Projekt/scala-play-slick-json-master" value="1494866316000" />
-        <entry key="$USER_HOME$/Pobrane/Scala (2)/Poster (2)" value="1465212084000" />
-        <entry key="$USER_HOME$/Pobrane/Scala/Poster" value="1465212084000" />
-        <entry key="$USER_HOME$/Pobrane/Scalaplay" value="1461047054000" />
-        <entry key="$USER_HOME$/Pobrane/karus-superstore-f00702be5bd4 (2)/back" value="1497283529000" />
-        <entry key="$USER_HOME$/Pobrane/karus-superstore-f00702be5bd4/back" value="1497283529000" />
-        <entry key="$USER_HOME$/Pobrane/maciejbendec-fromashes-f74f233c802b/play" value="1498417246000" />
-        <entry key="$USER_HOME$/Pobrane/play-silhouette-angular-seed-master" value="1492934515000" />
-        <entry key="$USER_HOME$/Pobrane/scala-play-slick-example-master" value="1461047054000" />
-        <entry key="$USER_HOME$/Pobrane/scala-play-slick-json-master" value="1494866316000" />
-        <entry key="$USER_HOME$/Scala" value="1491226113000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
 </project>

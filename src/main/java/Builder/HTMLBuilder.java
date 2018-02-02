@@ -1,7 +1,7 @@
 package Builder;
 
 public class HTMLBuilder implements TemplateBuilder{
-    String fileName;
+    String fileName = "data.json";
     private String confFile;
     String body;
     String title;

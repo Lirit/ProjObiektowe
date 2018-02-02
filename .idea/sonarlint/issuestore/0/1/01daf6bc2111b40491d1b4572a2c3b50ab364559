@@ -1,11 +1,11 @@
 
-]squid:S1191"<Replace this usage of Sun classes by ones from the Java API.(¬„úïùÿÿÿÿ8¼´™ê,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²äøÓüÿÿÿÿ8åĞŠœ•,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†İÔÚıÿÿÿÿ8ËÄİš•,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8¼´™ê,
 \squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(üÕÙä8¼´™ê,
-Xsquid:S1191"<Replace this usage of Sun classes by ones from the Java API.(Ãœ²«8¼´™ê,
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ÿë®è8Àİåë,
-[squid:S1161":Add the "@Override" annotation above this method signature(ñ´«ıÿÿÿÿ8¼´™ê,
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(äĞ„Î8¡Ñå•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(’Æêÿ8¼´™ê,
 ]squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8¼´™ê,
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(’Æêÿ8¼´™ê,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
+Qsquid:S2209"5Change this instance-reference to a static reference.(Ÿƒ·À8¡Ñå•,

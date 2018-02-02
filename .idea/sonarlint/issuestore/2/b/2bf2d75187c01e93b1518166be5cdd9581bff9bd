@@ -1,6 +1,8 @@
 
-Fsquid:S1166"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8ÌÛıä„,
-9squid:S2095"Close this "FileWriter".(…¿Å“şÿÿÿÿ8àóúä„,
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(üö˜åûÿÿÿÿ8’˜şä„,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ïê¥ÿÿÿÿÿ8›Ò„,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤„íƒ,
+gsquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Ä´£=8£Íêƒ,
+bsquid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8ƒ¯º•,
+Hsquid:S1068",Remove this unused "fileName" private field.(ş²Ø’8Òèü–•,
 rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(»Ä€²ÿÿÿÿÿ
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‹˜åıÿÿÿÿ8¨¼„,

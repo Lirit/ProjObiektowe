@@ -19,15 +19,16 @@ public class HTMLTemplate {
         String pattern_title = "\\$\\{title\\}";
         String pattern_body = "\\$\\{body\\}";
 try {
-    BufferedReader in = new BufferedReader(new FileReader("template.html"));
+    BufferedReader in = new BufferedReader(new FileReader("htmltemp.html"));
     String str;
     while ((str = in.readLine()) != null) {
 
         if(str.matches(pattern_title)){
-            str.replaceFirst(Pattern.quote(pattern_title), title);
+            str = str.replaceFirst(pattern_title, title);
+
         }
         if(str.matches(pattern_body)){
-            str.replaceFirst(Pattern.quote(pattern_body), body);
+            str = str.replaceFirst(pattern_body, body);
         }
         tempHTML.append(str);
     }
@@ -37,19 +38,6 @@ try {
         {
             e.printStackTrace();
         }
-        tempHTML.append("<html>");
-        tempHTML.append("<head><title>"+ title + "</title></head>");
-        tempHTML.append("<body>"+body+"</body>");
-        tempHTML.append("</html>");
-        try{
-            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
-            writer.write(tempHTML.toString());
-            writer.close();
-        }
-        catch(IOException e){
-            System.out.println("There was a problem with saving content to the file");
-        }
-
         return tempHTML.toString();
     }
 }

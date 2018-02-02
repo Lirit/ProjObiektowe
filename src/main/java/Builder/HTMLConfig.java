@@ -6,7 +6,7 @@ import org.json.simple.parser.JSONParser;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class HTMLConfig {
+public class HTMLConfig implements HTMLConfigure {
 
 
     public String readConfig(String naem, String parameter) throws IOException {
@@ -17,17 +17,12 @@ public class HTMLConfig {
             configFile = new FileReader(naem);
             Object obj = parser.parse(configFile);
             JSONObject jsonobj = (JSONObject) obj;
-
             param = (String)jsonobj.get(parameter);
-
+            configFile.close();
         }
         catch(Exception e){
-e.printStackTrace();
+            e.printStackTrace();
         }
-        finally{
-            //configFile.close();
-        }
-
         return param;
     }
 }

@@ -1,6 +1,6 @@
 package Builder;
 
-interface TemplateBuilder{
+public interface TemplateBuilder{
     void setConfFile(String fileName);
     HTMLBuilder setFileName();
     HTMLBuilder setBody();
