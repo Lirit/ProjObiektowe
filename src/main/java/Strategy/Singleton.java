@@ -16,6 +16,10 @@ public class Singleton {
             database =  new StrategyPostgre();
             database.connect();
         }
+        else if(type == "mysql"){
+            database =  new StrategyMysql();
+            database.connect();
+        }
     }
 
     public static Singleton getInstance(String type) {

@@ -24,5 +24,28 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="people@localhost" uuid="5cc7a089-c7b0-4c3c-a487-8e86bd7ece54">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/people</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="people@localhost [2]" uuid="10592c57-64c9-4897-a322-1ed9ecefbba9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/people</jdbc-url>
+      <driver-properties>
+        <property name="ApplicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

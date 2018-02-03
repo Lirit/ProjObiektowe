@@ -8,21 +8,21 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StrategyPostgre implements StrategyDBHandler {
+public class StrategyMysql implements StrategyDBHandler{
+
     Connection con = null;
 
-    @Override
     public void connect() {
         try {
-            Class.forName("org.postgresql.Driver");
-        }
-        catch(ClassNotFoundException cnf){
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+            }
+        catch(Exception cnf){
             cnf.printStackTrace();
-        }
-        String data = "jdbc:postgresql://localhost:5432/people";
+            }
+        String data = "jdbc:mysql://localhost:3306/people";
         try {
-            String uName = "postgres";
-            String uPass = "abcd";
+            String uName = "root";
+            String uPass = "1234";
             con = DriverManager.getConnection(data, uName, uPass);
         } catch (Exception e) {
             e.printStackTrace();
@@ -86,7 +86,7 @@ public class StrategyPostgre implements StrategyDBHandler {
         Map<Integer, Person> result = new HashMap<Integer, Person>();
         String query =
                 "select ID, NAME, SURNAME, NUMBER, MAIL " +
-                        "from " + "public.adress_book" ;
+                        "from " + "ADRESS_BOOK" ;
 
         try {
             stmt = con.createStatement();
@@ -106,7 +106,6 @@ public class StrategyPostgre implements StrategyDBHandler {
             if (stmt != null) {
                 try {
                     stmt.close();
-
                 }
                 catch(Exception exz){}
             }
@@ -128,4 +127,5 @@ public class StrategyPostgre implements StrategyDBHandler {
         }
         return jsa;
     }
+
 }

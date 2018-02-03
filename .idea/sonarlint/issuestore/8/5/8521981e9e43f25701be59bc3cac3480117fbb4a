@@ -1,4 +1,4 @@
 
-[squid:UselessImportCheck"-Remove this unused import 'javafx.util.Pair'.(û­ûºüÿÿÿÿ8Ù÷Ë¥‘,
 Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8È–ê‡,
 ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…ó‰üÿÿÿÿ8¬î×†,
+[squid:UselessImportCheck"-Remove this unused import 'javafx.util.Pair'.(û­ûºüÿÿÿÿ8Ù÷Ë¥‘,
