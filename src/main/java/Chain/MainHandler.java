@@ -1,8 +1,13 @@
 package Chain;
 
+import Builder.HTMLConfig;
+import Decorator.Editor;
+import Strategy.Singleton;
+import Strategy.StrategyDBHandler;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+import main.Person;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -12,6 +17,8 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
+
+import static java.lang.Integer.parseInt;
 
 public class MainHandler implements HttpHandler {
     HttpHandler successor;
@@ -28,13 +35,24 @@ public class MainHandler implements HttpHandler {
             String url = "http://localhost:9000/main";
             System.out.println("MainHandler handling request: " + req);
             String request = t.getRequestURI().getQuery();
+            String r = t.getRequestURI().toString();
             String response = "";
-            System.out.println(request);
-            if(request.equals("options")){
+            if(r.equals("/main")){
+                response = parsingHTML("temp.html");
+                writeResponse(t, response, "html");
+            }
+            else if(r.equals("/add")){
+                response = parsingHTML("add.html");
+                writeResponse(t, response, "html");
+            }
+            else if(r.equals("/remove")){
+                response = parsingHTML("remove.html");
+                writeResponse(t, response, "html");
+            }
+            else if(r.equals("/error")){
                 Thread thread = new Thread(){
                     public void run(){
                         String response = doOptions(url);
-                        System.out.println(response);
                         try{
                             writeResponse(t, response, "html");
                         }
@@ -43,11 +61,10 @@ public class MainHandler implements HttpHandler {
                 };
                 thread.start();
             }
-            else if(request.equals("post")){
+            else if(r.equals("/listall")){
                 Thread thread = new Thread(){
                     public void run(){
                         String response = doPost(url);
-                        System.out.println(response);
                         try{
                             writeResponse(t, response, "json");
                         }
@@ -56,11 +73,12 @@ public class MainHandler implements HttpHandler {
                 };
                 thread.start();
             }
-            else if(request.equals("delete")){
+            else if(r.equals("/edittemplate")){
+                Editor ed = new Editor(new HTMLConfig());
+                ed.readConfig("special_config.json", "comments");
                 Thread thread = new Thread(){
                     public void run(){
-                        String response = doDelete(url);
-                        System.out.println(response);
+                        String response = doPost(url);
                         try{
                             writeResponse(t, response, "json");
                         }
@@ -69,11 +87,12 @@ public class MainHandler implements HttpHandler {
                 };
                 thread.start();
             }
-            else if(request.equals("put")){
+            else if(r.matches("/removerequest.*")){
                 Thread thread = new Thread(){
                     public void run(){
-                        String response = doPut(url);
-                        System.out.println(response);
+                        Map<String, String> mp = queryToMap(t.getRequestURI().getQuery());
+                        int id = parseInt(mp.get("id"));
+                        String response = doDelete(url, id);
                         try{
                             writeResponse(t, response, "json");
                         }
@@ -82,25 +101,25 @@ public class MainHandler implements HttpHandler {
                 };
                 thread.start();
             }
-            else if(request.matches("name=(.*)")){
-
-                    Thread thread = new Thread(){
-                        public void run(){
-                            String response = doPut(url);
-                            System.out.println(response);
-                            try{
-                                writeResponse(t, response, "json");
-                            }
-                            catch(Exception ex){}
+            else if(r.matches("/addrequest.*")){
+                Thread thread = new Thread(){
+                    public void run(){
+                        Map<String, String> mp = queryToMap(t.getRequestURI().getQuery());
+                        Person person = new Person();
+                        person.setName(mp.get("name"));
+                        person.setSurname(mp.get("surname"));
+                        person.setTelephone(parseInt(mp.get("telephone")));
+                        person.setMail(mp.get("mail"));
+                        String response = doPut(url, person);
+                        try{
+                            writeResponse(t, response, "json");
                         }
-                    };
-                    thread.start();
-
-            }
-            else{
-                    response = parsingHTML("temp.html");
-                    writeResponse(t, response, "html");
-
+                        catch(Exception ex){
+                            ex.printStackTrace();
+                        }
+                    }
+                };
+                thread.start();
             }
 
         }
@@ -111,7 +130,6 @@ public class MainHandler implements HttpHandler {
     }
 
     public static void writeResponse(HttpExchange httpExchange, String response, String type) throws IOException {
-        //httpExchange.sendResponseHeaders(200, response.length());
         Headers headers = httpExchange.getResponseHeaders();
         if(type=="json") {
             headers.set("Content-Type", String.format("application/json; charset=%s", StandardCharsets.UTF_8));
@@ -119,10 +137,7 @@ public class MainHandler implements HttpHandler {
         final byte[] rawResponseBody = response.getBytes(StandardCharsets.UTF_8);
         httpExchange.sendResponseHeaders(200, rawResponseBody.length);
         httpExchange.getResponseBody().write(rawResponseBody);
-        //OutputStream os = httpExchange.getResponseBody();
         httpExchange.close();
-        //os.write(response.getBytes());
-        //os.close();
     }
 
     String parsingJSON(String file){
@@ -184,7 +199,6 @@ public String doOptions(String url){
         catch(Exception e){
 
         }
-    System.out.println(buffer.toString());
     return buffer.toString();
 }
 
@@ -209,13 +223,22 @@ public String doOptions(String url){
         catch(Exception e){
 
         }
-        System.out.println(buffer.toString());
         return buffer.toString();
     }
 
 
-    public String doDelete(String url){
-
+    public String doDelete(String url, int id){
+        HTMLConfig c = new HTMLConfig();
+        String data = "";
+        try {
+            data = c.readConfig("database_conf.json", "current_database");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        Singleton s = Singleton.getInstance(data);
+        StrategyDBHandler str = s.database;
+        str.remove(id);
         StringBuffer buffer = null;
         try {
             URL urlObj = new URL(url);
@@ -234,11 +257,21 @@ public String doOptions(String url){
         }
         catch(Exception e){
         }
-        System.out.println(buffer.toString());
         return buffer.toString();
     }
 
-    public String doPut(String url){
+    public String doPut(String url, Person p){
+        HTMLConfig c = new HTMLConfig();
+        String data = "";
+        try {
+            data = c.readConfig("database_conf.json", "current_database");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        Singleton s = Singleton.getInstance(data);
+        StrategyDBHandler str = s.database;
+        str.add(p);
 
         StringBuffer buffer = null;
         try {
@@ -258,13 +291,12 @@ public String doOptions(String url){
         }
         catch(Exception e){
         }
-        System.out.println(buffer.toString());
         return buffer.toString();
     }
 
     public Map<String, String> queryToMap(String query){
         Map<String, String> result = new HashMap<String, String>();
-        for (String param : query.split("?")[1].split("&")) {
+        for (String param : query.split("&")) {
             String pair[] = param.split("=");
             if (pair.length>1) {
                 result.put(pair[0], pair[1]);

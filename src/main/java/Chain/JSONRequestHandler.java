@@ -1,5 +1,6 @@
 package Chain;
 
+import Builder.HTMLConfig;
 import Strategy.Singleton;
 import Strategy.StrategyDBHandler;
 import com.sun.net.httpserver.Headers;
@@ -39,45 +40,21 @@ public class JSONRequestHandler implements HttpHandler {
 
     public void handle(HttpExchange t) throws IOException {
     String req = t.getRequestMethod();
-    if(req.equals("PUT")){
-        System.out.println("JSONRequestHandler handling request: "+req);
-        Singleton s = Singleton.getInstance("sqlite");
-        String request = t.getRequestURI().getQuery();
-        System.out.println(request);
-        Map<String, String> tmp = queryToMap(request);
-        StrategyDBHandler str = s.database;
-        Person p = new Person();
-        p.setId(3);
-        p.setName("Bartłomiej");
-        p.setSurname("Zieliński");
-        p.setMail("barze@example.com");
-        p.setTelephone(222333444);
-        str.add(p);
-        Map<Integer, Person> mp = str.getAll();
-        JSONArray a = str.toJson(mp);
-        System.out.println(a.toString());
-        response = a.toString();
-        MainHandler.writeResponse(t, response,"json");
-    }
-    else if(req.equals("POST")){
-        System.out.println("JSONRequestHandler handling request: "+req);
-        Singleton s = Singleton.getInstance("sqlite");
-        StrategyDBHandler str = s.database;
-        Map<Integer, Person> mp = str.getAll();
-        JSONArray a = str.toJson(mp);
-        System.out.println(a.toString());
-        response = a.toString();
-        MainHandler.writeResponse(t, response,"json");
 
-    }
-    else if(req.equals("DELETE")){
+    if(req.equals("POST") || req.equals("PUT")|| req.equals("DELETE")){
         System.out.println("JSONRequestHandler handling request: "+req);
-        Singleton s = Singleton.getInstance("sqlite");
+        HTMLConfig c = new HTMLConfig();
+        String data = "";
+        try {
+            data = c.readConfig("database_conf.json", "current_database");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        Singleton s = Singleton.getInstance(data);
         StrategyDBHandler str = s.database;
-        str.remove(2);
         Map<Integer, Person> mp = str.getAll();
         JSONArray a = str.toJson(mp);
-        System.out.println(a.toString());
         response = a.toString();
         MainHandler.writeResponse(t, response,"json");
     }

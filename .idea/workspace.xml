@@ -2,25 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2815ae45-4407-4260-8f91-d05fb7c3a5fa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6ae3e15a0196775664e4cf57a9f9af0cc4d22b43" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Strategy/StartegyDBmysql.java" afterPath="$PROJECT_DIR$/src/main/java/Strategy/StartegyDBsqlite.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/JSONRequestHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Chain/MainHandler.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/10592c57-64c9-4897-a322-1ed9ecefbba9/_metadata_/metadata_i.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01daf6bc2111b40491d1b4572a2c3b50ab364559" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01daf6bc2111b40491d1b4572a2c3b50ab364559" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0520db9cb93759d5dca35092959c16f6b2b5009e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0520db9cb93759d5dca35092959c16f6b2b5009e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2534a01954afea1e133a9a25da009b813fa9c164" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2534a01954afea1e133a9a25da009b813fa9c164" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317b749a8250c9b4eff026d2d0bf646ee8359901" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317b749a8250c9b4eff026d2d0bf646ee8359901" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b398a3a655721b7c5a3d0353308458b5ea337e3" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b398a3a655721b7c5a3d0353308458b5ea337e3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7d6f340a728bafadc32eb6e83f457ba2656097" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b7d6f340a728bafadc32eb6e83f457ba2656097" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5eeeac0bcd0792188dbd52821470c29aa1febf" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f5eeeac0bcd0792188dbd52821470c29aa1febf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8521981e9e43f25701be59bc3cac3480117fbb4a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8521981e9e43f25701be59bc3cac3480117fbb4a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b14ba3ec963d8ea87c216d534a75ea6c4d0c10e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b14ba3ec963d8ea87c216d534a75ea6c4d0c10e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85fa5fc6385f362ab6a5524538a76d6442e46aff" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85fa5fc6385f362ab6a5524538a76d6442e46aff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac9d255d24b93bd902b461cc3e6c83276e6f1c9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac9d255d24b93bd902b461cc3e6c83276e6f1c9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a472593d4e9dad13ba41f8d784bd1403794046" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a472593d4e9dad13ba41f8d784bd1403794046" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7dbf1450840aa04f55a1207331922f375d79280" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7dbf1450840aa04f55a1207331922f375d79280" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f981b7b9a7596e3661cced4baadf4226a73b0c39" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f981b7b9a7596e3661cced4baadf4226a73b0c39" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Chain/ErrorHandler.class" afterPath="$PROJECT_DIR$/target/classes/Chain/ErrorHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Chain/Routing.class" afterPath="$PROJECT_DIR$/target/classes/Chain/Routing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Decorator/Editor.class" afterPath="$PROJECT_DIR$/target/classes/Decorator/Editor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Strategy/Singleton.class" afterPath="$PROJECT_DIR$/target/classes/Strategy/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Strategy/StartegyDBsqlite.class" afterPath="$PROJECT_DIR$/target/classes/Strategy/StartegyDBsqlite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Strategy/StrategyPostgre.class" afterPath="$PROJECT_DIR$/target/classes/Strategy/StrategyPostgre.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Strategy/Test.class" afterPath="$PROJECT_DIR$/target/classes/Strategy/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstProject_aId.iml" afterPath="$PROJECT_DIR$/FirstProject_aId.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.json" afterPath="$PROJECT_DIR$/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmltemp.html" afterPath="$PROJECT_DIR$/htmltemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chain/MainHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Chain/MainHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Chain/Routing.java" afterPath="$PROJECT_DIR$/src/main/java/Chain/Routing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Decorator/Editor.java" afterPath="$PROJECT_DIR$/src/main/java/Decorator/Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Strategy/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/Strategy/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java" afterPath="$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Strategy/Test.java" afterPath="$PROJECT_DIR$/src/main/java/Strategy/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.html" afterPath="$PROJECT_DIR$/temp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.html" afterPath="$PROJECT_DIR$/template.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,70 +84,101 @@
         <item name="people" type="e3449647:DbNodeDescriptor" />
         <item name="public" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="project.db" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="project.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="project.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="ADRESS_BOOK" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StrategyMysql.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyMysql.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Builder/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1517596213844" expanded="true" signature="860:928" ph="INSERT INTO ADRESS_BOOK... " />
-                <marker date="1517596213844" expanded="true" signature="1374:1410" ph="DELETE FROM " />
-                <marker date="1517596213844" expanded="true" signature="1778:1846" ph="select ID, N... ADRESS_BOOK" />
-                <marker date="1517596213844" expanded="true" signature="2628:2717" ph="select ID, N... ADRESS_BOOK" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrategyPostgre.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java">
+      <file leaf-file-name="HTMLTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <folding>
-                <element signature="e#2583#2600#0" expanded="true" />
-                <marker date="1517618228678" expanded="true" signature="876:944" ph="INSERT INTO ADRESS_BOOK... " />
-                <marker date="1517618228678" expanded="true" signature="1390:1426" ph="DELETE FROM " />
-                <marker date="1517618228678" expanded="true" signature="1794:1862" ph="select ID, N... ADRESS_BOOK" />
-                <marker date="1517618228678" expanded="true" signature="2644:2716" ph="select ID, N... " />
-                <marker date="1517618228678" expanded="true" signature="2644:2722" ph="select ID, N... ADRESS_BOOK" />
-                <marker date="1517618228678" expanded="true" signature="2644:2740" ph="select ID, N... adress_book" />
-              </folding>
+            <state relative-caret-position="201">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Singleton.java">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htmltemp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htmltemp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1238" lean-forward="false" selection-start-line="0" selection-start-column="1238" selection-end-line="0" selection-end-column="1238" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Editor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Decorator/Editor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="35" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Test.java">
+      <file leaf-file-name="database_conf.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database_conf.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -136,8 +192,8 @@
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -147,6 +203,7 @@
       <find>System</find>
       <find>lastRes</find>
       <find>writeRes</find>
+      <find>System.</find>
     </findStrings>
     <replaceStrings>
       <replace>MSG</replace>
@@ -174,9 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Adapt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DBHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DBConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/HTMLconfig.json" />
         <option value="$PROJECT_DIR$/src/main/java/Config/DBConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Config/DBHandler.java" />
@@ -200,9 +254,6 @@
         <option value="$PROJECT_DIR$/src/main/java/main/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/Chain/temp.html" />
         <option value="$PROJECT_DIR$/src/main/java/Chain/Test.java" />
-        <option value="$PROJECT_DIR$/template.html" />
-        <option value="$PROJECT_DIR$/data.json" />
-        <option value="$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/HTMLConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/HTMLConfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/TemplateBuilder.java" />
@@ -211,20 +262,26 @@
         <option value="$PROJECT_DIR$/special_config.json" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Decorator/EditTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Decorator/Editor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Chain/Routing.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/Strategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/StartegyDBmysql.java" />
-        <option value="$PROJECT_DIR$/temp.html" />
-        <option value="$PROJECT_DIR$/htmltemp.html" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/src/main/java/Chain/MainHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/StrategyMysql.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Strategy/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Strategy/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Chain/Routing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Strategy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Chain/MainHandler.java" />
+        <option value="$PROJECT_DIR$/temp.html" />
+        <option value="$PROJECT_DIR$/add.html" />
+        <option value="$PROJECT_DIR$/remove.html" />
+        <option value="$PROJECT_DIR$/data.json" />
+        <option value="$PROJECT_DIR$/template.html" />
+        <option value="$PROJECT_DIR$/src/main/java/Decorator/Editor.java" />
+        <option value="$PROJECT_DIR$/htmltemp.html" />
+        <option value="$PROJECT_DIR$/database_conf.json" />
       </list>
     </option>
   </component>
@@ -362,6 +419,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,13 +447,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstProject_aId" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject_aId" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject_aId" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject_aId" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chain" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,8 +694,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Routing" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Routing" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (2)" />
         <item index="2" class="java.lang.String" itemvalue="Application.Test" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.Decorator in FirstProject_aId" />
         <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
@@ -681,7 +754,9 @@
       <workItem from="1517577820894" duration="2562000" />
       <workItem from="1517589661482" duration="587000" />
       <workItem from="1517591022330" duration="585000" />
-      <workItem from="1517594051828" duration="8568000" />
+      <workItem from="1517594051828" duration="8669000" />
+      <workItem from="1517664776965" duration="12311000" />
+      <workItem from="1517765089569" duration="7543000" />
     </task>
     <servers />
   </component>
@@ -694,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148059000" />
+    <option name="totallyTimeSpent" value="168014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,6 +782,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -717,21 +793,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32511556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28043142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24345146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22727273" sideWeight="0.50913244" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24350649" sideWeight="0.49086758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25162336" sideWeight="0.49086758" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14691558" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13717532" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -787,28 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/HttpHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Chain/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -864,13 +918,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Builder/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -892,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -906,83 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/TemplateBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/special_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Decorator/Editor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Decorator/EditTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automatic_file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyDBHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,13 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
           <caret line="130" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="130" selection-end-column="5" />
-          <folding>
-            <marker date="1517533906838" expanded="true" signature="926:999" ph="select ID, N... ADRESS_BOOK" />
-            <marker date="1517533906838" expanded="true" signature="1485:1521" ph="DELETE FROM " />
-            <marker date="1517533906838" expanded="true" signature="1877:1945" ph="select ID, N... ADRESS_BOOK" />
-            <marker date="1517533906838" expanded="true" signature="2725:2817" ph="INSERT INTO ADRESS_BOOK... " />
-            <marker date="1517533906838" expanded="true" signature="2726:2815" ph="select ID, N... ADRESS_BOOK" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,39 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/Routing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/MainHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="78" column="25" lean-forward="false" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmltemp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,15 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="75" column="43" lean-forward="false" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,13 +999,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="825">
           <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding />
         </state>
@@ -1096,47 +1012,200 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyMysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="0">
           <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1517596213844" expanded="true" signature="860:928" ph="INSERT INTO ADRESS_BOOK... " />
-            <marker date="1517596213844" expanded="true" signature="1374:1410" ph="DELETE FROM " />
-            <marker date="1517596213844" expanded="true" signature="1778:1846" ph="select ID, N... ADRESS_BOOK" />
-            <marker date="1517596213844" expanded="true" signature="2628:2717" ph="select ID, N... ADRESS_BOOK" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstProject_aId.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automatic_file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="167">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="178">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy/StrategyPostgre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/JSONRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="41" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/Routing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Decorator/EditTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/special_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/MainHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="77" column="65" lean-forward="false" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
           <folding>
-            <element signature="e#2583#2600#0" expanded="true" />
-            <marker date="1517618228678" expanded="true" signature="876:944" ph="INSERT INTO ADRESS_BOOK... " />
-            <marker date="1517618228678" expanded="true" signature="1390:1426" ph="DELETE FROM " />
-            <marker date="1517618228678" expanded="true" signature="1794:1862" ph="select ID, N... ADRESS_BOOK" />
-            <marker date="1517618228678" expanded="true" signature="2644:2716" ph="select ID, N... " />
-            <marker date="1517618228678" expanded="true" signature="2644:2722" ph="select ID, N... ADRESS_BOOK" />
-            <marker date="1517618228678" expanded="true" signature="2644:2740" ph="select ID, N... adress_book" />
+            <element signature="e#3806#4595#0" expanded="true" />
+            <element signature="e#4594#4595#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Chain/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/TemplateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/HTMLTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Decorator/Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmltemp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1238" lean-forward="false" selection-start-line="0" selection-start-column="1238" selection-end-line="0" selection-end-column="1238" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

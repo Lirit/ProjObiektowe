@@ -1,20 +1,20 @@
 
+]squid:UselessImportCheck";Remove this unused import 'antlr.debug.ParserEventSupport'.(øÍ¸Í
+Rsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+>squid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…ó‰üÿÿÿÿ
 nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò‰¼Æ
 isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
-isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
-\squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş
-isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
-asquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ç®±ùÿÿÿÿ
->squid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡
->squid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡
-?squid:S00108")Either remove or fill this block of code.(í¶ƒ
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…ó‰üÿÿÿÿ
-Tsquid:UselessImportCheck"-Remove this unused import 'javafx.util.Pair'.(û­ûºüÿÿÿÿ
-Rsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-]squid:UselessImportCheck";Remove this unused import 'antlr.debug.ParserEventSupport'.(øÍ¸Í
 =squid:S1148"#Use a logger to log this exception.(­İßÂûÿÿÿÿ
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Tsquid:UselessImportCheck"-Remove this unused import 'javafx.util.Pair'.(û­ûºüÿÿÿÿ
+isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 =squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(í¶ƒ
+\squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş
+>squid:S1481")Remove this unused "stmt" local variable.(–ÔÀ¡
 8squid:S1148"#Use a logger to log this exception.(û£Ü¤
+asquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ç®±ùÿÿÿÿ

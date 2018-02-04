@@ -1,68 +1,68 @@
 
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8Şë’¦•,
-`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8„Êİ£•,
-Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8ïÙé¤•,
-`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8„Êİ£•,
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8„Êİ£•,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8öé£•,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8˜¼ç¤•,
-Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8™’‹¦•,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¶®éÓøÿÿÿÿ8¡“Ù¦•,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8ïÙé¤•,
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ñ´«ıÿÿÿÿ8¬™œ¤•,
-Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8„Êİ£•,
-Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8¬™œ¤•,
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç˜Ÿûÿÿÿÿ8„Êİ£•,
-?squid:S1148"#Use a logger to log this exception.(Ç’Çê8„Êİ£•,
-Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8öé£•,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¥´ğã8„Êİ£•,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8„Êİ£•,
-`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8„Êİ£•,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8„Êİ£•,
-†"squid:ClassVariableVisibilityCheck"TMake lastResp a static final constant or non-public and provide accessors if needed.(Áş‘8¦Öªœ•,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8½´™ê,
-_squid:S1854">Remove this useless assignment to local variable "jsonObject".(ß¯‡‡ùÿÿÿÿ8„Êİ£•,
-Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8”æİÊ“,
-Isquid:S1444".Make this "public static lastResp" field final(Áş‘8±¶œ•,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8¬™œ¤•,
-Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8öé£•,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( †Šû8–¨áî•,
+Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8–¨áî•,
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8ò„ìí•,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(·¬Öş8€ºæš•,
-msquid:S1871"LThis branch's code block is the same as the block for the branch on line 72.(âÕûÿÿÿÿ8Õ§ç¦•,
-Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8ƒ‚€¤•,
-Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8„Êİ£•,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³Øá¸üÿÿÿÿ8„Êİ£•,
-`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8˜¼ç¤•,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„Êİ£•,
-Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8–‡¤•,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8ïÙé¤•,
-Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8„Êİ£•,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„Êİ£•,
-Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8Şë’¦•,
-Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8“üâ¥•,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8“üâ¥•,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( †Šû8„Êİ£•,
-asquid:S2259"@A "NullPointerException" could be thrown; "in" is nullable here.(­‘†ûüÿÿÿÿ8„Êİ£•,
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8–¨áî•,
+Psquid:S1481"/Remove this unused "jsonObject" local variable.(ß¯‡‡ùÿÿÿÿ8–¨áî•,
+Isquid:S1444".Make this "public static lastResp" field final(Áş‘8±¶œ•,
+Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8¬¤å•,
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8–¨áî•,
+Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8–¨áî•,
+Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8‰õµå•,
+Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8–¨áî•,
+`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8–¨áî•,
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8„Êİ£•,
-Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8„Êİ£•,
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8˜¼ç¤•,
-Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8˜¼ç¤•,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™ÔŠÆ8„Êİ£•,
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8„Êİ£•,
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8–¨áî•,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–¨áî•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8–¨áî•,
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8–¨áî•,
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ñ´«ıÿÿÿÿ8‰õµå•,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(°ò¿ç8˜ôéš•,
-Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8–‡¤•,
-Psquid:S1481"/Remove this unused "jsonObject" local variable.(ß¯‡‡ùÿÿÿÿ8„Êİ£•,
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8„Êİ£•,
-Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8ïÙé¤•,
+`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8–¨áî•,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³Øá¸üÿÿÿÿ8–¨áî•,
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8–¨áî•,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8¬¤å•,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8”æİÊ“,
+asquid:S2259"@A "NullPointerException" could be thrown; "in" is nullable here.(­‘†ûüÿÿÿÿ8–¨áî•,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8½´™ê,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–¨áî•,
+Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8–¨áî•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥´ğã8–¨áî•,
+Jsquid:S1172")Remove this unused method parameter "id".(Û£”êıÿÿÿÿ8–¨áî•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8–¨áî•,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8–¨áî•,
+†"squid:ClassVariableVisibilityCheck"TMake lastResp a static final constant or non-public and provide accessors if needed.(Áş‘8¦Öªœ•,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç˜Ÿûÿÿÿÿ8–¨áî•,
+`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8–¨áî•,
+\squid:S1854";Remove this useless assignment to local variable "request".(‹ĞáÉùÿÿÿÿ8…¡öã•,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™ÔŠÆ8–¨áî•,
+Isquid:S1172"(Remove this unused method parameter "p".(´‰”Öûÿÿÿÿ8¡‹âî•,
+Ksquid:S00108")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8–¨áî•,
+_squid:S1854">Remove this useless assignment to local variable "jsonObject".(ß¯‡‡ùÿÿÿÿ8–¨áî•,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8–¨áî•,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8–¨áî•,
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8¬¤å•,
+Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8–¨áî•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿş«Ä8¡“Ù¦•,
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8–¨áî•,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ı‚å8–¨áî•,
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(şİ¼Ø8–¨áî•,
+?squid:S1148"#Use a logger to log this exception.(Ç’Çê8–¨áî•,
+Vsquid:S1161":Add the "@Override" annotation above this method signature(“–ış8‰õµå•,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8–¨áî•,
+Ksquid:S00108")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ8–¨áî•,
+Msquid:S1481",Remove this unused "request" local variable.(‹ĞáÉùÿÿÿÿ8…¡öã•,
+`squid:S2259"DA "NullPointerException" could be thrown; "buffer" is nullable here.(üÚÆ‹8–¨áî•,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8‰õµå•,

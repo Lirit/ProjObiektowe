@@ -6,6 +6,7 @@ import Builder.Test;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Editor extends EditTemplate{
 
@@ -18,10 +19,13 @@ public class Editor extends EditTemplate{
         String comments = super.readConfig(naem,parameter);
         String str = "";
         if(comments.equals("remove")){
-        String pattern_comment = "<!--(.*?)-->";
+        String pattern_comment = "<!--|-->";
         Test t = new Test();
         String html = t.getTemp().returnHTML();
-        str = html.replaceFirst(pattern_comment, "");
+        str = html.replaceAll(pattern_comment, "");
+            PrintWriter writer = new PrintWriter("htmltemp.html", "UTF-8");
+            writer.println(str);
+            writer.close();
         }
         return str;
     }

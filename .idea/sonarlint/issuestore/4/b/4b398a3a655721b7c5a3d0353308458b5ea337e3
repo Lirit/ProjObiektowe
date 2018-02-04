@@ -1,8 +1,8 @@
 
-\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8…Â¢•,
-]squid:S1854"<Remove this useless assignment to local variable "tempHTML".(£À³óşÿÿÿÿ8‘¥Å¢•,
 Nsquid:S1481"-Remove this unused "tempHTML" local variable.(£À³óşÿÿÿÿ8‘¥Å¢•,
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¯„ùşÿÿÿÿ
-]squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8…Â¢•,
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ãŠşÿÿÿÿ8›…¢•,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ†‘”úÿÿÿÿ8›…¢•,
 [squid:S1161":Add the "@Override" annotation above this method signature(È•Òúÿÿÿÿ8‹°£¢•,
+]squid:S1854"<Remove this useless assignment to local variable "tempHTML".(£À³óşÿÿÿÿ8‘¥Å¢•,
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¯„ùşÿÿÿÿ
+\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8…Â¢•,
+]squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8…Â¢•,

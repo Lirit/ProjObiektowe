@@ -1,30 +1,30 @@
 
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8ş¨¤•,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ğûöí•,
+Isquid:S1481"(Remove this unused "tmp" local variable.(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8¼´™ê,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8Èé¶„,
+_squid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8¼´™ê,
+Xsquid:S1854"7Remove this useless assignment to local variable "tmp".(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
+Tsquid:UselessImportCheck"&Remove this unused import 'main.Main'.(®Œ²õüÿÿÿÿ8¼´™ê,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8¼´™ê,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
+squid:S1192"fDefine a constant instead of duplicating this literal "JSONRequestHandler handling request: " 3 times.(š†Û(8Âß“ë,
 Y
 squid:S106"9Replace this use of System.out or System.err by a logger.(¶®éÓøÿÿÿÿ8Ğıê¦•,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8¹Â×¤•,
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8ş¨¤•,
-squid:S1192"fDefine a constant instead of duplicating this literal "JSONRequestHandler handling request: " 3 times.(š†Û(8Âß“ë,
-Isquid:S1481"(Remove this unused "tmp" local variable.(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
-Xsquid:S1854"7Remove this useless assignment to local variable "tmp".(ˆõæÕÿÿÿÿÿ8åïĞ¦•,
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8¶çÕ¤•,
 ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
-Ysquid:S1197"8Move the array designator from the variable to the type.(¡â•×ÿÿÿÿÿ8¼´™ê,
+isquid:UselessImportCheck";Remove this unused import 'com.sun.net.httpserver.Headers'.(¬„úïùÿÿÿÿ8¹Â×¤•,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(ôÅ€«8¼´™ê,
-csquid:S1192"GDefine a constant instead of duplicating this literal "sqlite" 3 times.(Â“Ú¤8¹Â×¤•,
-Tsquid:UselessImportCheck"&Remove this unused import 'main.Main'.(®Œ²õüÿÿÿÿ8¼´™ê,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
-isquid:UselessImportCheck";Remove this unused import 'com.sun.net.httpserver.Headers'.(¬„úïùÿÿÿÿ8¹Â×¤•,
-_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8Ñ©°ë,
-Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8Èé¶„,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå8¼´™ê,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(š†Û(8¼´™ê,
 \squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(áÂª8¶çÕ¤•,
-_squid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(ãˆÎÉ8¼´™ê,
+_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8Ñ©°ë,

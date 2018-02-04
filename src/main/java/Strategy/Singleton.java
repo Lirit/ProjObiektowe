@@ -8,15 +8,15 @@ public class Singleton {
     public StrategyDBHandler database;
     private static Singleton instance = null;
     protected Singleton(String type) {
-        if(type == "sqlite"){
+        if(type.equals("sqlite")){
             database =  new StartegyDBsqlite();
             database.connect();
         }
-        else if(type == "postgresql"){
+        else if(type.equals("postgresql")){
             database =  new StrategyPostgre();
             database.connect();
         }
-        else if(type == "mysql"){
+        else if(type.equals("mysql")){
             database =  new StrategyMysql();
             database.connect();
         }

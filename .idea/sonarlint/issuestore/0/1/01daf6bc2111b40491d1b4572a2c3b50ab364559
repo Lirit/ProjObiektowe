@@ -1,11 +1,10 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²äøÓüÿÿÿÿ8åÐŠœ•,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†ÝÔÚýÿÿÿÿ8ËÄÝš•,
+isquid:UselessImportCheck";Remove this unused import 'com.sun.net.httpserver.Headers'.(¬„úïùÿÿÿÿ8 îÇç•,
+Qsquid:S2209"5Change this instance-reference to a static reference.(Ÿƒ·À8¡Ñå•,
 Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(¬„úïùÿÿÿÿ8¼´™ê,
-\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(äÐ„Î8¡Ñå•,
+_squid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8 îÇç•,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(’Æêÿ8¼´™ê,
-]squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äþÿÿÿÿ8¼´™ê,
 ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‡ö¨¡úÿÿÿÿ8¼´™ê,
-Qsquid:S2209"5Change this instance-reference to a static reference.(Ÿƒ·À8¡Ñå•,
+\squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼´™ê,
+]squid:UselessImportCheck"/Remove this unused import 'java.io.FileReader'.(Â¡¢äþÿÿÿÿ8¼´™ê,
